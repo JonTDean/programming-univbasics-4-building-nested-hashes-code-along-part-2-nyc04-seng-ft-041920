@@ -68,8 +68,9 @@ def add_characters
 
   #1. - Add an additional :additional_characters key to epic_tragedy and assign it an array as its value
   epic_tragedy[:additional_characters] = []#2. - Add two hashes to this array, both with a :name key.
-  epic_tragedy[:additional_characters][0]= {name => ""}
-  epic_tragedy[:additional_characters][1]= {name => ""}#3. - The first hash should have the :name key set to "Prince Escalus"
+  epic_tragedy[:additional_characters][0]= {name: ""}
+  epic_tragedy[:additional_characters][1]= {name: ""}
+  #3. - The first hash should have the :name key set to "Prince Escalus"
   #4. - The second hash should have the :name key set to "Apothecary"
   epic_tragedy[:additional_characters][0][:name] = "Prince Escalus"
   epic_tragedy[:additional_characters][1][:name] = "Apothecary"
